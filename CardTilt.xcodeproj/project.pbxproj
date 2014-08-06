@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0DBE5519923AD900A7902B /* TipInAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0DBE5419923AD900A7902B /* TipInAnimator.swift */; };
 		5D71757E195B7B780008F672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71757D195B7B780008F672 /* AppDelegate.swift */; };
 		5D717580195B7B780008F672 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71757F195B7B780008F672 /* MainViewController.swift */; };
 		5D717585195B7B780008F672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D717583195B7B780008F672 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D0DBE5419923AD900A7902B /* TipInAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipInAnimator.swift; sourceTree = "<group>"; };
 		5D717578195B7B780008F672 /* CardTilt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardTilt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D71757C195B7B780008F672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D71757D195B7B780008F672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				5D7175B6195B978C0008F672 /* CardTableViewCell.swift */,
 				5D71757F195B7B780008F672 /* MainViewController.swift */,
 				5D7175B4195B7D600008F672 /* Member.swift */,
+				5D0DBE5419923AD900A7902B /* TipInAnimator.swift */,
 				5D717583195B7B780008F672 /* Main.storyboard */,
 				5D717586195B7B780008F672 /* Images.xcassets */,
 				5D71757B195B7B780008F672 /* Supporting Files */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D717580195B7B780008F672 /* MainViewController.swift in Sources */,
+				5D0DBE5519923AD900A7902B /* TipInAnimator.swift in Sources */,
 				5D7175B5195B7D600008F672 /* Member.swift in Sources */,
 				5D71757E195B7B780008F672 /* AppDelegate.swift in Sources */,
 				5D7175B7195B978C0008F672 /* CardTableViewCell.swift in Sources */,

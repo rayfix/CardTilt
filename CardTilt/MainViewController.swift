@@ -35,6 +35,11 @@ class MainViewController: UITableViewController {
 
     //MARK: - Table View
 
+    override func tableView(tableView: UITableView!, willDisplayCell cell: UITableViewCell!,
+        forRowAtIndexPath indexPath: NSIndexPath!) {
+            TipInCellAnimator.animate(cell)
+    }
+    
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
