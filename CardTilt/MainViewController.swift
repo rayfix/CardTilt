@@ -11,6 +11,7 @@ import UIKit
 class MainViewController: UITableViewController {
 
     var members:[Member] = []
+    var didAnimateCell:[NSIndexPath: Bool] = [:]
     
     //MARK: - Model
     
@@ -37,7 +38,10 @@ class MainViewController: UITableViewController {
 
     override func tableView(tableView: UITableView!, willDisplayCell cell: UITableViewCell!,
         forRowAtIndexPath indexPath: NSIndexPath!) {
-            TipInCellAnimator.animate(cell)
+            if didAnimateCell[indexPath] == nil || didAnimateCell[indexPath]! == false {
+                didAnimateCell[indexPath] = true
+                TipInCellAnimator.animate(cell)
+            }
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
